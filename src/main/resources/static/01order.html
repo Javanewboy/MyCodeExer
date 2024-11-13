@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>工程首页</h1>
+
+<!-- 绝对路径中第一个 / 代表的是工程根路径  和页面所处位置无关
+ 1.当前位置：http://localhost:8080/index.html
+ 2.请求位置：http://localhost:8080/DeleteOrder
+-->
+<a href="/deleteOrder">删除订单</a>
+
+
+<h3>通过form表单发请求</h3>
+<form action="/createOrder">
+  <input type="text" name="orderId" placeholder="订单编号">
+  <input type="text" name="orderAmount" placeholder="订单金额">
+  <input type="submit" value="创建订单">
+</form>
+
+</body>
+</html>
