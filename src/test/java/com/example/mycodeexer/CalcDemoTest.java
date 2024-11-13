@@ -4,10 +4,10 @@ package com.example.mycodeexer;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
-class CalcDemoTest {
+public class CalcDemoTest {
 
     @Test
-    void add() {
+    public void add() {
         CalcDemo calcDemo = new CalcDemo();
         //System.out.println(calcDemo.add(2, 4));//error,看到绿条不一定正确,不可以使用sysout
         int retValue = calcDemo.add(2, 2);
@@ -18,7 +18,7 @@ class CalcDemoTest {
     }
 
     @Test
-    void sub() {
+    public void sub() {
 
     }
 }
